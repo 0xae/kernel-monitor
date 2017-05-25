@@ -1,0 +1,16 @@
+#!/bin/bash
+
+if [[ $# != 1 ]]; then
+        echo "usage: ./proc-monitor <proc_name>"
+        exit 1
+fi
+
+PIDS=$(ps -Ao pid,command,fname | grep $1 | awk 'BEGIN {ORS = ","} {print $1}')
+if [[ $PIDS == "" ]]; then 
+        echo "No processes found!"
+        exit 0
+fi
+
+PIDS="$PIDS-0"
+top -p "$PIDS"
+
