@@ -1,6 +1,12 @@
 # kernel-monitor
 scripts, crazy  ideas and cool projects to monitor my system
 
+## Ideas
+
+### core-zone 
+    c/c++, linux perf tools, java bytecode instrumentation projects
+    dtrace, PHP bytecode, dropwizard metrics
+
 ## Links
 
 [Munin Monitoring](http://munin-monitoring.org/)
