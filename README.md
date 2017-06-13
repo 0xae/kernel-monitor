@@ -16,3 +16,5 @@ scripts, crazy  ideas and cool projects to monitor my system
 [Kernel documentation on iostats](https://www.kernel.org/doc/Documentation/iostats.txt)
 
 [Monitoring disk i/o question on stackexchange](https://unix.stackexchange.com/questions/55212/how-can-i-monitor-disk-io)
+
+[Uber CPU Stat](https://github.com/uber-common/cpustat)
